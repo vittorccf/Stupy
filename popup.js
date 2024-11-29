@@ -23,3 +23,4 @@ async function searchYouTube(track) {
 async function openYouTubeVideo(link) {
   chrome.tabs.create({ url: link });
 }
+teste
