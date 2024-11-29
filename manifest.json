@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Spotify YouTube Sync",
+  "version": "1.0",
+  "permissions": [
+    "activeTab",
+    "storage",
+    "https://api.spotify.com/*",
+    "https://www.youtube.com/*"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
